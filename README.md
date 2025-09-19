@@ -1,4 +1,4 @@
-What this website does (in simple words)
+What this website does :
 
 Type any text or link and get a QR code instantly
 

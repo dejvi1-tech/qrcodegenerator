@@ -4,18 +4,7 @@ import { NumberInput } from './NumberInput';
 import { ColorInput } from './ColorInput';
 import { Toggle } from './Toggle';
 import { FileDrop } from './FileDrop';
-import {
-  buildURLPayload,
-  buildWiFiPayload,
-  buildVCardPayload,
-  buildEmailPayload,
-  buildSMSPayload,
-  buildTextPayload,
-  WiFiData,
-  VCardData,
-  EmailData,
-  SMSData,
-} from '../lib/payloads';
+import { buildTextPayload } from '../lib/payloads';
 
 export interface QRSettings {
   type: 'text' | 'url' | 'wifi' | 'vcard' | 'email' | 'sms';

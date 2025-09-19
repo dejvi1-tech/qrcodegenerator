@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import QRCode from 'qrcode';
-import { hexToRgb, hexToRgbObject } from './lib/color';
 import { ToastContainer, useToast } from './components/Toast';
 
 function App() {

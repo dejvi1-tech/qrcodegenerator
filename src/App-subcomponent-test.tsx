@@ -4,7 +4,7 @@ import { ToastContainer, useToast } from './components/Toast';
 
 function App() {
   const [testStep, setTestStep] = useState(1);
-  const { toasts, addToast, removeToast } = useToast();
+  const { toasts, removeToast } = useToast();
 
   const tests = [
     { id: 1, name: 'Select Component', file: './components/Select' },
